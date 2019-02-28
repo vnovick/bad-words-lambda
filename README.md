@@ -3,19 +3,13 @@
 1. Create the table using the console:
 
 ```
-Table name: notes
+Table name: posts
 
 Columns:
 id: Integer auto-increment
-note: Text
-
-Table name: note_revision
-
-Columns:
-id: Integer auto-increment
-note: Text
-note_id: Integer (foreign key to notes.id)
-update_at: Timestamp, default `now()`
+title: Text
+content: Text
+verified: Boolean
 
 ```
 
